@@ -8,6 +8,28 @@ A basic Ionic client web application which consumes the RestAPI Backend. [Covere
 2. [The RestAPI Backend](https://github.com/udacity/cloud-developer/tree/master/course-02/exercises/udacity-c2-restapi), a Node-Express server which can be deployed to a cloud service. [Covered in the course]
 3. [The Image Filtering Microservice](https://github.com/udacity/cloud-developer/tree/master/course-02/project/image-filter-starter-code), the final project for the course. It is a Node-Express application which runs a simple script to process images. [Your assignment]
 
+
+## Project Report
+
+#### Project: ALX-T Udagram: Your Own Instagram on AWS
+#### Prepared by: Obichukwu Onyeowuzoni
+
+#### Git Repository
+https://github.com/Obichukwu/image-filter
+
+#### Endpoints
+1. ELB deployment: http://onigns-image-filter-dev.us-east-1.elasticbeanstalk.com/
+
+#### Test Urls
+1. Valid Url: http://onigns-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.udacity.com/blog/wp-content/uploads/2021/02/img9.jpg
+2. Invalid Url: http://onigns-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=fakefile.png
+3. Valid Url: http://onigns-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://www.udacity.com/blog/wp-content/uploads/2022/08/Cybersecurity-for-Business-Leaders_blog-378x212.jpg
+4. Invalid Url: http://onigns-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage
+
+#### Images Name Included in the Report with their description
+1. screenshot-1.png: elastic beanstalk application dashboard after deployement
+    Image Public Url: https://drive.google.com/file/d/16Gk7pCOfo6G-ibyrXXZKQGYm8VECAI56/view?usp=sharing
+
 ## Tasks
 
 ### Setup Node Environment
