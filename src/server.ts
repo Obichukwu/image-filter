@@ -37,6 +37,11 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util';
         .send(`image_url is required`);
     }
 
+    if (typeof image_url !== "string") {
+      return res.status(400)
+        .send("Query param 'image_url' has to be of type string");
+    }
+    
     // checks if the supplied image_url is a valid url
     if (!isValidUrl(image_url)) {
       return res.status(400)
